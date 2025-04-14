@@ -4,5 +4,5 @@ A product can have multiple product goals, and a team should only be working on 
 
 # Example
 
-** Use AI-Driven Development to Shape The Intertech Way Playbook
-Deliver an internal software product built with AI collaboration, helping define reusable patterns and practices that will become core to The Intertech Way playbook. **
+**Use AI-Driven Development to Shape The Intertech Way Playbook
+Deliver an internal software product built with AI collaboration, helping define reusable patterns and practices that will become core to The Intertech Way playbook.**
