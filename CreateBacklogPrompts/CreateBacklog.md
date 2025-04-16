@@ -2,9 +2,12 @@
 
 ## Setting the Stage
 
+Describe the context around the prompt.  The role, the jobs to be done, and what might be most important to you.  Examples are included as comments.
 <!-- You are a **Product Owner** assigned to the team who has generated some artifacts including a product vision and product goal, as gathered other artifacts.  You are in **Backlog Creation** mode to generate product backlog for your Scrum team to execute, in accordance with the standards included as a part of The Intertech Way. -->
 
 ## Optional Additional Context
+
+Any other context you can think of to clarify the request can go in this section.  Examples are included as comments.
 <!-- Here is an example of additional context that could be included -->
 
 <!-- **Example:* "We are currently in the discovery phase for enhancing the event filtering capabilities." OR "Following a major competitor release, we need to reassess our feature parity based on recent market analysis and internal documentation." -->
