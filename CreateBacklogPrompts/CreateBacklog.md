@@ -1,10 +1,13 @@
 # Create Backlog Prompt
 
-You are a **Product Owner** assigned to my team who has generated some artifacts including a product vision and product goal, as gathered other artifacts.  You are in **Backlog Creation** mode to generate product backlog for your Scrum team to execute, in accordance with the standards included as a part of The Intertech Way.
+## Setting the Stage
+
+<!-- You are a **Product Owner** assigned to the team who has generated some artifacts including a product vision and product goal, as gathered other artifacts.  You are in **Backlog Creation** mode to generate product backlog for your Scrum team to execute, in accordance with the standards included as a part of The Intertech Way. -->
 
 ## Optional Additional Context
+<!-- Here is an example of additional context that could be included -->
 
-Here is an example of additional context that could be included**Example:* "We are currently in the discovery phase for enhancing the event filtering capabilities." OR "Following a major competitor release, we need to reassess our feature parity based on recent market analysis and internal documentation."
+<!-- **Example:* "We are currently in the discovery phase for enhancing the event filtering capabilities." OR "Following a major competitor release, we need to reassess our feature parity based on recent market analysis and internal documentation." -->
 
 ### Instructions:
 
@@ -12,17 +15,17 @@ Here is an example of additional context that could be included**Example:* "We a
 
 * **List the Artifacts:** Clearly enumerate *all* documents or data sources the LLM must process. Use identifiers for clarity.
     * *Example:* "You will analyze the following artifacts:
-        * [DOC A] User Survey Results (Q1 2025) - Filtering Needs
-        * [DOC B] Current App Specification v2.1 - Search & Filter Section
-        * [DOC C] Competitor App Analysis - 'EventFinder Pro' (April 2025)
-        * [DOC D] Meeting Notes - Brainstorming Session on Filters (Mar 15, 2025)
-        * [DOC E] App Store Review Extracts (Jan-Apr 2025)"
-* **Specify Focus Areas (If Applicable):** Direct the LLM's attention if certain documents are more relevant for specific tasks.
+        * [DOC 1] /ProductInfo/ProductGoal.md for information about the current goal for the product.
+        * [DOC 2] /ProductInfo/ProductVision.md for the larger product vision.
+        * [DOC 3] /BacklogGuidelines/ProductBacklogGuidelines.md for the standards for backlogs for The Intertech Way, including the desired hierarchy of backlog items.
+        * [DOC 4] /Definitions/ScrumTerms.md for definitions of terminology not in the Scrum Guide.
+        
+ **Specify Focus Areas (If Applicable):** Direct the LLM's attention if certain documents are more relevant for specific tasks.
     * *Example:* "For identifying user-requested filter types, prioritize [DOC A] and [DOC E]. For understanding current implementation details, refer solely to [DOC B]."
 
 ## 4. Detailed Task Instructions (The Core)
 
-* **Break Down the Request:** Use a numbered or bulleted list for specific, granular tasks. Be explicit.
+<!-- * **Break Down the Request:** Use a numbered or bulleted list for specific, granular tasks. Be explicit.
 
     * **Extraction Tasks:** Define *exactly* what to pull out.
         * *Example:* "1. Extract all explicit user requests for new filter categories or sorting options mentioned in [DOC A] and [DOC E]." "2. List all currently implemented filter mechanisms described in [DOC B]." "3. Identify specific filter features highlighted in the 'EventFinder Pro' analysis in [DOC C]."
@@ -37,7 +40,7 @@ Here is an example of additional context that could be included**Example:* "We a
         * *Example:* "8. Identify any inconsistencies between user requests ([DOC A], [DOC E]) and the current specifications ([DOC B])." "9. List any technical limitations or challenges regarding filtering mentioned in any document."
 
     * **Analysis/Comparison Tasks:** Require analysis based *only* on provided text.
-        * *Example:* "10. Based *only* on the feedback in [DOC A] and [DOC E], identify the top 3 most frequently mentioned frustrations with the current filtering system."
+        * *Example:* "10. Based *only* on the feedback in [DOC A] and [DOC E], identify the top 3 most frequently mentioned frustrations with the current filtering system." -->
 
 ## 5. Output Format and Structure Requirements
 
